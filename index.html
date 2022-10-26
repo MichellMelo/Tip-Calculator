@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="./javascript/index.js" defer></script>
+
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="title-center">
+      <p>SPLI</p>
+      <p>TTER</p>
+    </div>
+    <div class="content">
+      <div class="left">
+        <p id="titleBill" class="primaryColor">Conta</p>
+        <input type="number" id="bill" placeholder="0">
+        <p id="titleSelectTip" class="primaryColor">Selecione a gorjeta %</p>
+        <div class="buttons">
+          <button id="tipBtn" data-value="5">5%</button>
+          <button id="tipBtn" data-value="10">10%</button>
+          <button id="tipBtn" data-value="15">15%</button>
+          <button id="tipBtn" data-value="25">25%</button>
+          <button id="tipBtn" data-value="50">50%</button>
+          <button id="custom" type="button">Custom</button>
+        </div>
+        <span id="person" class="primaryColor">Número de pessoas</span>
+        <span id="hidden"></span>
+        <input type="number" id="numberOfPersons" placeholder="0">
+      </div>
+      <!-- End left -->
+
+      <div class="rigth">
+        <div class="content-top">
+          <div class="amountText">
+            <p class="title">Valor da gorjeta</p>
+            <p class="subtitle">/ pessoa</p>
+          </div>
+          <div class="amount">
+            <span id="amount">$0.00</span>
+          </div>
+        </div>
+
+        <div class="content-down">
+          <div class="totalText">
+            <p class="title">Total</p>
+            <p class="subtitle">/ pessoa</p>
+          </div>
+          <div class="totalAmount">
+            <span id="totalAmount">$0.00</span>
+          </div>
+        </div>
+
+        <div class="reset">
+          <button disabled id="resetBtn">RESETAR</button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Michell Melo</a>.
+    </div>
+  </div>
+</body>
+
+</html>
