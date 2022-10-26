@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Space Mono", monospace;
+}
+:root {
+  --bg-color: #c5e4e7;
+  --primary-color: #00494d;
+  --input-color: #7f9c9f;
+  --other-color: #5e7a7d;
+  --select-color: #26c0ab;
+  --number-color: #f4fafa;
+  --white-color: #ffffff;
+  --error-color: #ff0043;
+  --button-color: #687c74;
+  --textBtn-color: #677273;
+}
+body {
+  font-size: 1.6rem;
+}
+input {
+  font-size: 2.4rem;
+  text-align: end;
+  background-color: var(--number-color);
+  border-color: transparent;
+  border-radius: 0.5rem;
+  font-family: "Space Mono", monospace;
+  width: 100%;
+  color: var(--primary-color);
+  outline: none;
+}
+input:focus {
+  border-color: var(--select-color);
+}
+button {
+  cursor: pointer;
+  font-family: "Space Mono", monospace;
+}
+.primaryColor {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+.container {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+}
+.title-center {
+  text-align: center;
+  padding: 2.5rem;
+  font-size: 3rem;
+  color: var(--primary-color);
+  display: grid;
+}
+.content {
+  background-color: var(--white-color);
+  width: 80rem;
+  height: 40rem;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 2rem;
+}
+.left {
+  padding: 2rem;
+  margin: 0.5rem;
+}
+#bill {
+  background-image: url("../images/icon-dollar.svg");
+  background-repeat: no-repeat;
+  background-position: 1rem;
+}
+#titleSelectTip {
+  padding-top: 3.5rem;
+}
+.buttons {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+#tipBtn {
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  border: 0.5rem solid transparent;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 1.8rem;
+}
+#tipBtn:active {
+  background-color: var(--select-color) !important;
+  color: var(--primary-color) !important;
+}
+#hidden {
+  padding-top: 2rem;
+  padding-left: 8rem;
+  font-size: 1rem;
+}
+#custom {
+  background-color: var(--number-color);
+  color: var(--input-color);
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border: 0.5rem solid transparent;
+  text-align: center;
+  cursor: pointer;
+}
+#numberOfPersons {
+  background-image: url("../images/icon-person.svg");
+  background-position: 1rem;
+  background-repeat: no-repeat;
+}
+.rigth {
+  background-color: var(--primary-color);
+  width: 38rem;
+  padding: 4rem;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+.rigth span {
+  font-size: 4rem;
+  color: var(--select-color);
+}
+.content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-down {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+  align-items: center;
+}
+.title {
+  color: var(--white-color);
+  font-size: 1.2rem;
+}
+.subtitle {
+  color: var(--bg-color);
+  font-size: 0.9rem;
+}
+.reset {
+  padding-top: 10rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+#resetBtn {
+  padding: 0.5rem 12rem;
+  background-color: var(--input-color);
+  border: 0.5rem solid transparent;
+  border-radius: 0.5rem;
+  color: var(--other-color);
+  font-weight: 700;
+}
+.resetBtn {
+  background-color: var(--select-color) !important;
+  color: var(--primary-color) !important;
+}
+.resetBtn:active {
+  background-color: var(--bg-color) !important;
+  color: var(--primary-color) !important;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 3rem;
+}
+.attribution a {
+  color: #3e52a3;
+}
+.inputError {
+  border-color: var(--error-color);
+}
+.error {
+  color: var(--error-color);
+}
+@media (max-width: 815px) {
+  .content {
+    width: 45rem;
+    height: auto;
+    flex-direction: column;
+  }
+  .rigth {
+    margin-left: 3.5rem;
+  }
+  .reset {
+    padding-left: 0;
+  }
+}
+@media (max-width: 455px) {
+  .content {
+    align-items: center;
+    width: auto;
+  }
+  .rigth {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-down {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons {
+    grid-template-columns: 1fr 1fr;
+  }
+  input {
+    width: 98%;
+  }
+  #resetBtn {
+    padding: 0.5rem 5rem;
+  }
+}
