@@ -7,7 +7,6 @@ Esta é uma solução para o [desafio do aplicativo de calculadora de gorjeta do
 - [Visão geral](#visãogeral)
   - [O desafio](#the-challenge)
   - [Captura de tela](#capturadetela)
-  - [Links](#links)
 - [Meu processo](#meu-processo)
   - [Construído com](#construídocom)
   - [O que aprendi](#o-que-aprendi)
@@ -27,10 +26,6 @@ Os usuários devem ser capazes de:
 
 ![](./Screenshot_1.png)
 
-### Links
-
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
 
 ## Meu processo
 
@@ -62,7 +57,6 @@ Os usuários devem ser capazes de:
 
 ## Autor
 
-- GitHub - [Michell Melo](https://github.com/MichellMelo)
 - Linkendin - [Michell Melo](www.linkedin.com/in/michell-melo-23a6301a8)
 
 
