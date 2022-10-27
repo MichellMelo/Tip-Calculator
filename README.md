@@ -24,14 +24,14 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![](./Screenshot_1.png)
+![](./images/Screenshot_1.png)
 
 
 ## Meu processo
 
 ### Construído com
 
-- Marcação HTML5 semântica
+- Marcação HTML5
 - Propriedades personalizadas de CSS
 - Flexbox
 - Grid
@@ -57,7 +57,7 @@ Os usuários devem ser capazes de:
 
 ## Autor
 
-- Linkendin - [Michell Melo](www.linkedin.com/in/michell-melo-23a6301a8)
+- Linkendin - [Michell Melo](https://www.linkedin.com/in/michell-melo-23a6301a8)
 
 
 ## Agradecimentos
